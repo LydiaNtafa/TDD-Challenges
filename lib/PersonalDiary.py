@@ -7,7 +7,7 @@ def make_snipet(text):
     if type(text) is not str:
         raise Exception("Invalid Input, please enter text!!!")
     
-    if count_words(text) < 5:
+    if count_words(text) <= 5:
         return text
     
     list_of_text = text.split()
