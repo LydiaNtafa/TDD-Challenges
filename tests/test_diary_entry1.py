@@ -1,4 +1,4 @@
-from lib.diary_entry import *
+from lib.diary_entry1 import *
 
 my_diary = DiaryEntry("My goal for Makers", "I want to make friends")
 empty_diary = DiaryEntry("", "")
