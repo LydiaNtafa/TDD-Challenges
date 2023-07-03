@@ -32,7 +32,7 @@ The diagram below uses asciiflow.com but you could also use excalidraw.com, draw
 ┌────────────────────────────┐      ┌────────────────────────────┐
 │ Diary                      │      │ Todo list                  │
 │                            │      │                            │    
-│ - add(D.E)                 │      │ - Add(task, status)        │
+│ - add(D.E)                 │ <--- │ - Add(task, status)        │
 │ - search_D.E(keyword)      │      │ - update(task,status)      │
 │ - to_read_D.E(min,wpm)     │      │ - show_todo()              │
 │   => one or more D.E       │      │ - show_complete()          │

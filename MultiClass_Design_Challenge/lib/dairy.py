@@ -1,5 +1,6 @@
 
 import re
+from diary_entry import Diary_Entry
 
 class Diary():
     # User-facing properties:
@@ -61,9 +62,8 @@ class Diary():
         if self._entries == []:
             raise Exception("Warning! You have not added any diary entries")
         for entry in self._entries:
-            number = re.findall(r'\b0\d{10}', entry.read())
+            number = re.findall(r'\b0\d{10}\b', entry.read())
             contacts += number
         return contacts
     
-        
         
